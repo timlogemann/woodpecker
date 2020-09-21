@@ -4,5 +4,12 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "timlogemann.code-acf-snippets",
+      "mblode.twig-language-2",
+      "bmewburn.vscode-intelephense-client"
+    ]
+  }
 }
