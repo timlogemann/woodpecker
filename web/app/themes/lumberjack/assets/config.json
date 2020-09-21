@@ -1,0 +1,16 @@
+{
+    "entry": {
+        "main": ["./scripts/main.js", "./styles/main.scss"],
+        "customizer": ["./scripts/customizer.js"]
+    },
+    "publicPath": "/app/themes/lumberjack",
+    "devUrl": "http://kryha.test",
+    "proxyUrl": "http://localhost:3000",
+    "cacheBusting": "[name]_[hash:8]",
+    "watch": [
+        "app/**/*.php",
+        "bootstrap/**/*.php",
+        "config/**/*.php",
+        "views/**/*.php"
+    ]
+}
